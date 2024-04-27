@@ -18,13 +18,13 @@ Prerequisites:
 Access to a web-based calculator application.
 All tests begin at the application's homepage.
 
-Setup Steps:
+<h4> Setup Steps:</h4>
 1. Navigate to the homepage ('/').
 2. Clear all previous entries and reset the calculator to a default state.
 
 -----------------------------------------------------------------------
 
-Test Case 1: Clear Entry Data Test
+<h4>Test Case 1: Clear Entry Data Test</h4>
 Objective: Verify that clearing the last entry does not affect the new computation.
 
 Steps:
@@ -38,7 +38,7 @@ Expected Result:
 
 -----------------------------------------------------------------------
 
-Test Case 2: Clear All Data Test
+<h4>Test Case 2: Clear All Data Test</h4>
 Objective: Ensure that using the full reset clears all previous calculations completely.
 
 Steps:
@@ -53,7 +53,7 @@ Expected Result:
 
 -----------------------------------------------------------------------
 
-Test Case 3: Sum Test
+<h4>Test Case 3: Sum Test</h4>
 Objective: Verify the calculator can accurately sum two numbers.
 
 Steps:
@@ -64,7 +64,7 @@ Expected Result:
 
 -----------------------------------------------------------------------
 
-Test Case 4: Subtract Test
+<h4>Test Case 4: Subtract Test</h4>
 Objective: Ensure the calculator can accurately subtract one number from another.
 
 Steps:
@@ -75,7 +75,7 @@ Expected Result:
 
 -----------------------------------------------------------------------
 
-Test Case 5: Multiply Test
+<h4>Test Case 5: Multiply Test</h4>
 Objective: Verify that the multiplication function works as expected.
 
 Steps:
@@ -86,7 +86,7 @@ Expected Result:
 
 -----------------------------------------------------------------------
 
-Test Case 6: Divide Test
+<h4>Test Case 6: Divide Test</h4>
 Objective: Check the division function for a non-zero divisor.
 
 Steps:
@@ -97,7 +97,7 @@ Expected Result:
 
 -----------------------------------------------------------------------
 
-Test Case 7: Division by Zero Test
+<h4>Test Case 7: Division by Zero Test</h4>
 Objective: Ensure that dividing by zero is handled correctly and shows an error or a specific message.
 
 Steps:

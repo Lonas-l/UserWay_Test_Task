@@ -1,5 +1,5 @@
 import {test, expect} from "@playwright/test";
-import BasicCalculator from "../pageObject/pages/BasicCalculator";
+import BasicCalculator from "../pageObject/pages/BasicCalculator/BasicCalculator";
 
 test.describe("Basic Calculator Tests", async () => {
 
